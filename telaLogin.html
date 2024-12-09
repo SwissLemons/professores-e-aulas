@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professores Felises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <form id="formLogin" onsubmit="return autenticar(event)">
+            <h1>Bem Vindo</h1>
+            <input type="text" id="Email" placeholder="Email" required>
+
+            <input type="text" id="Senha" placeholder="Senha" required>
+
+            <button type="submit" onclick="autenticar()">Entrar</button>
+        </form>
+    </div>
+    <script src="scriptLogin.js"></script>
+</body>
+</html>
